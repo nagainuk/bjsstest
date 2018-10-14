@@ -39,7 +39,6 @@ public class TestBase
 		{
 			//System.setProperty("webdriver.chrome.driver", "C:/Users/Tarakaram/Downloads/chromedriver_win32/chromedriver.exe");
 			//driver=new ChromeDriver();
-//			 System.setProperty("webdriver.gecko.driver", "C:\\Users\\Tarakaram\\Downloads\\geckodriver-v0.16.0-win64\\geckodriver.exe");
 			 System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		        driver = new FirefoxDriver();
 
@@ -51,10 +50,7 @@ public class TestBase
 		//driver.manage().timeouts().pageLoadTimeout(TestUtil.ImplicitWait, TimeUnit.SECONDS);
 		
 	    driver.get(prop.getProperty("url"));
-	    
-		
-		
-		
+
 	}
 
 }
