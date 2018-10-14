@@ -1,8 +1,8 @@
-@tag
+
 Feature: Login to the automation test site
   I want to use this template for my feature file
 
-  @SignIn
+
   Scenario: Login to the automationtest site
     Given user launches the browser
     And user is on signin page
